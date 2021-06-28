@@ -17,7 +17,7 @@ int main() {
         gpio_put(LED_PIN, 1);
         sleep_ms(100);
         gpio_put(LED_PIN, 0);
-        sleep_ms(200);
+        sleep_ms(100);
         
     }
 #endif
